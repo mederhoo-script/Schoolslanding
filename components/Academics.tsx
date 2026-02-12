@@ -7,10 +7,7 @@ export default function Academics() {
     <section 
       id="academics" 
       className="py-20"
-      style={{ 
-        backgroundColor: 'var(--color-bg)',
-        opacity: 0.98
-      }}
+      style={{ backgroundColor: 'var(--color-bg)' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">

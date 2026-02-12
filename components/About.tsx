@@ -70,6 +70,7 @@ export default function About() {
             </div>
           </div>
           <div>
+            {/* Using native img tag for static export compatibility */}
             <img
               src={school.images.about}
               alt="About our school"
