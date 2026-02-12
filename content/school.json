@@ -1,0 +1,87 @@
+{
+  "name": "Bright Future Academy",
+  "motto": "Knowledge for Excellence",
+  "description": "A leading educational institution dedicated to nurturing young minds and shaping future leaders through quality education and holistic development.",
+  "contact": {
+    "phone": "+2348012345678",
+    "email": "info@brightfuture.edu.ng",
+    "address": "123 Education Boulevard, Victoria Island, Lagos, Nigeria",
+    "whatsapp": "2348012345678"
+  },
+  "theme": {
+    "primary": "#16a34a",
+    "secondary": "#14532d",
+    "accent": "#f59e0b",
+    "backgroundLight": "#ffffff",
+    "backgroundDark": "#0f172a",
+    "textLight": "#1f2937",
+    "textDark": "#e5e7eb"
+  },
+  "images": {
+    "logo": "/images/logo.svg",
+    "hero": "/images/hero.svg",
+    "about": "/images/about.svg",
+    "gallery": [
+      "/images/gallery-1.svg",
+      "/images/gallery-2.svg",
+      "/images/gallery-3.svg",
+      "/images/gallery-4.svg",
+      "/images/gallery-5.svg",
+      "/images/gallery-6.svg"
+    ],
+    "facilities": [
+      {
+        "name": "Science Laboratory",
+        "image": "/images/lab.svg",
+        "description": "State-of-the-art science laboratory equipped with modern equipment"
+      },
+      {
+        "name": "Library",
+        "image": "/images/library.svg",
+        "description": "Well-stocked library with thousands of books and digital resources"
+      },
+      {
+        "name": "Computer Lab",
+        "image": "/images/computer-lab.svg",
+        "description": "Modern computer lab with high-speed internet connectivity"
+      },
+      {
+        "name": "Sports Complex",
+        "image": "/images/sports.svg",
+        "description": "Comprehensive sports facilities for physical development"
+      }
+    ]
+  },
+  "sections": {
+    "about": {
+      "title": "About Us",
+      "content": "Bright Future Academy has been at the forefront of educational excellence for over two decades. We provide a nurturing environment where students can develop academically, socially, and emotionally. Our dedicated faculty and modern facilities ensure that each child receives personalized attention and quality education."
+    },
+    "academics": {
+      "title": "Our Academic Programs",
+      "description": "We offer comprehensive educational programs from Nursery to Secondary School",
+      "programs": [
+        {
+          "name": "Nursery & Primary",
+          "description": "Building strong foundations in early childhood education",
+          "features": ["Play-based learning", "Literacy & Numeracy", "Character development"]
+        },
+        {
+          "name": "Junior Secondary",
+          "description": "Comprehensive curriculum aligned with national standards",
+          "features": ["Core subjects", "Practical labs", "Arts & Sports"]
+        },
+        {
+          "name": "Senior Secondary",
+          "description": "Preparing students for higher education and careers",
+          "features": ["WAEC/NECO prep", "Career guidance", "University prep"]
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Enroll Your Child?",
+      "description": "Join hundreds of parents who trust us with their children's education. Contact us today to schedule a school tour.",
+      "buttonText": "Chat on WhatsApp"
+    }
+  }
+}

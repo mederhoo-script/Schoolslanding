@@ -1,0 +1,5 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#16a34a"/>
+  <circle cx="400" cy="300" r="150" fill="#14532d" opacity="0.3"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-size="48" font-family="Arial, sans-serif" font-weight="bold">About Our School</text>
+</svg>
