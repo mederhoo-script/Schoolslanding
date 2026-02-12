@@ -1,4 +1,5 @@
 import { getSchoolData } from '@/lib/schoolData';
+import ThemeProvider from '@/components/ThemeProvider';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
@@ -28,16 +29,7 @@ export default function Page({ params }: PageProps) {
   };
 
   return (
-    <>
-      <style jsx global>{`
-        :root {
-          --color-primary: ${themeColors.primary};
-          --color-secondary: ${themeColors.secondary};
-          --color-accent: ${themeColors.accent};
-          --color-bg: ${themeColors.bg};
-          --color-text: ${themeColors.text};
-        }
-      `}</style>
+    <ThemeProvider theme={themeColors}>
       <Navbar />
       <Hero />
       <About />
@@ -47,7 +39,7 @@ export default function Page({ params }: PageProps) {
       <CTA />
       <Contact />
       <Footer />
-    </>
+    </ThemeProvider>
   );
 }
 
