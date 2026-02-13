@@ -5,7 +5,7 @@ export default function CTA() {
 
   return (
     <section 
-      className="py-20"
+      className="h-screen flex items-center justify-center snap-start snap-always"
       style={{
         backgroundColor: 'var(--color-primary)',
       }}
