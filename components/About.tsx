@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section 
       id="about" 
-      className="py-20"
+      className="h-screen flex items-center justify-center snap-start snap-always py-20"
       style={{ backgroundColor: 'var(--color-bg)' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

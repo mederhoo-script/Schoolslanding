@@ -5,7 +5,7 @@ export default function Hero() {
 
   return (
     <section 
-      className="relative min-h-screen flex items-center justify-center"
+      className="relative h-screen flex items-center justify-center snap-start snap-always"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${school.images.hero})`,
         backgroundSize: 'cover',
