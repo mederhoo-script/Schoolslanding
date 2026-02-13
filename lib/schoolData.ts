@@ -23,9 +23,16 @@ export interface Facility {
   description: string;
 }
 
+export interface HeroSlide {
+  image: string;
+  title: string;
+  subtitle: string;
+}
+
 export interface SchoolImages {
   logo: string;
   hero: string;
+  slides: HeroSlide[];
   about: string;
   gallery: string[];
   facilities: Facility[];

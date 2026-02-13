@@ -20,6 +20,23 @@
   "images": {
     "logo": "/images/logo.svg",
     "hero": "/images/hero.svg",
+    "slides": [
+      {
+        "image": "/images/hero.svg",
+        "title": "Welcome to Bright Future Academy",
+        "subtitle": "Knowledge for Excellence"
+      },
+      {
+        "image": "/images/hero-slide-1.png",
+        "title": "Holistic Development",
+        "subtitle": "Nurturing young minds through sports and extracurricular activities"
+      },
+      {
+        "image": "/images/hero-slide-2.png",
+        "title": "State-of-the-Art Facilities",
+        "subtitle": "Providing the best environment for academic success"
+      }
+    ],
     "about": "/images/about.svg",
     "gallery": [
       "/images/gallery-1.svg",
@@ -64,17 +81,29 @@
         {
           "name": "Nursery & Primary",
           "description": "Building strong foundations in early childhood education",
-          "features": ["Play-based learning", "Literacy & Numeracy", "Character development"]
+          "features": [
+            "Play-based learning",
+            "Literacy & Numeracy",
+            "Character development"
+          ]
         },
         {
           "name": "Junior Secondary",
           "description": "Comprehensive curriculum aligned with national standards",
-          "features": ["Core subjects", "Practical labs", "Arts & Sports"]
+          "features": [
+            "Core subjects",
+            "Practical labs",
+            "Arts & Sports"
+          ]
         },
         {
           "name": "Senior Secondary",
           "description": "Preparing students for higher education and careers",
-          "features": ["WAEC/NECO prep", "Career guidance", "University prep"]
+          "features": [
+            "WAEC/NECO prep",
+            "Career guidance",
+            "University prep"
+          ]
         }
       ]
     },
